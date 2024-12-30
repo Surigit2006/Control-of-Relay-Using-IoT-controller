@@ -39,9 +39,39 @@ In this Arduino  Relay Control Circuit we have used Arduino to control the relay
 
 ## PROGRAM:
 
+```
+void setup()
+{
+pinMode(A0,OUTPUT);
+}
+void loop()
+{
+digitalWrite(A0,HIGH);
+delay(1000);
+digitalWrite(A0,LOW);
+delay(1000);
+}
+
+```
+
 ## CIRCUIT DIAGRAM:
 
+![image](https://github.com/user-attachments/assets/c4c115d4-179f-4dcd-9fe4-1b28a7de84e7)
+
+
 ## OUTPUT:
+
+
+LAMP OFF:
+
+![image](https://github.com/user-attachments/assets/617f9d93-0527-4f26-85fd-d918d1b6363a)
+
+
+LAMP ON:
+
+
+![image](https://github.com/user-attachments/assets/20449710-83bd-4d8f-9858-86ad724a0fac)
+
 
 ## RESULT:
 
